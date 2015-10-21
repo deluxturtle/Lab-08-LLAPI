@@ -1,0 +1,97 @@
+using UnityEngine;
+using System.Collections;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
+using UnityEngine.Networking;
+
+public class ClientConnection : MonoBehaviour {
+	int clientSocketID = -1;
+	//Will store the unique identifier of the session that keeps the connection between the client
+	//and the server. You use this ID as the 'target' when sending messages to the server.
+	int clientServerConnectionID = -1;
+	int maxConnections = 10;
+	byte unreliableChannelID;
+	byte reliableChannelID;
+	bool isClientConnected = false;
+	
+	void Start()
+	{
+		DontDestroyOnLoad(this);
+		
+		//Build the global config
+		
+		//Build the channel config
+		
+		//Create the host topology
+		
+		//Initialize the network transport
+		
+		//Open a socket for the client
+		
+		//Make sure the client created the socket successfully
+		
+		//Create a byte to store a possible error
+		
+		//Connect to the server using 
+		//int NetworkTransport.Connect(int socketConnectingFrom, string ipAddress, int port, 0, out byte possibleError)
+		//Store the ID of the connection in clientServerConnectionID
+		
+		//Display the error (if it did error out)
+	}
+	
+	void Update()
+	{
+		//If the client failed to create the socket, leave this function
+		
+		PollBasics();
+		
+		//If the user pressed the Space key
+			//Send a message to the server "FirstConnect"
+			
+		//If the user pressed the R key
+			//Send a message to the server "Random message!"
+	}
+	
+	void SendMessage(string message)
+	{
+		//create a byte to store a possible error
+		//Create a buffer to store the message
+		//Create a memory stream to send the information through
+		//Create a binary formatter to serialize and translate the message into binary
+		//Serialize the message
+		
+		//Send the message from this client, over the client server connection, using the reliable channel
+		
+		//Display the error (if it did error out)
+	}
+	
+	void InterperateMessage(string message)
+	{
+		//if the message is "goto_NewScene"
+			//load the level named "Scene2"
+	}
+	
+	void PollBasics()
+	{
+		//prepare to receive messages by practicing good bookkeeping
+		
+		//do
+			//Receive network events
+			//switch on the network event types
+				//if nothing, do nothing
+				//if connection
+					//verify that the message was meant for me
+						//debug out that i connected to the server, and display the ID of what I connected to
+						//set my bool that is keeping track if I am connected to a server to true
+				//if data event
+					//verify that the message was meant for me and if I am connected to a server
+						//decode the message (bring it through the memory stream, deseralize it, translate the binary)
+						//Debug the message and the connection that the message was sent from 
+						InterperateMessage(//the message to interperate);
+				//if disconnection
+					//verify that the message was meant for me, and that I am disconnecting from the current connection I have with the server
+						//debug that I disconnected
+						//set my bool that is keeping track if I am connected to a server to false
+		//while (the network event I am receiving is not Nothing)
+	}
+	

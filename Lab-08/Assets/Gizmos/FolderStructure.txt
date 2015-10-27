@@ -1,0 +1,2 @@
+This folder is for Gizmo Scripts
+There is no inherit organization for this folder

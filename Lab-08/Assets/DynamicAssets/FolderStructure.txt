@@ -1,0 +1,34 @@
+These are assets that are loaded in dynamically via Resources.Load(...)
+Everything should be places inside the Resources folder, nothing should be in the Dynamic Assets folder
+Animations Workflow:
+	Inside of the animations folder, create a folder for EACH animation
+	Inside of the Animatinos/Sources folder, create a folder for EACH animation
+	Then, import the direct model into the appropriate sources folder. For example, the .obj, .fbx, .blend, .maya, ect.
+	After the import, copy the .anim files from the source folder into the Animations/appropriate animation
+	After the .anim files are placed, create the animation controller for the object and place it directly into the AnimatorControllers folder
+Effects Workflow:
+	Create a folder with the name of the particle effect
+	Place all resources for the particle effect in the appropriate folder
+Models Workflow:
+	These are raw unanimated models or models with a single animation
+	Characters are for other characters that run on set animations, or are unanimated (such as frogs)
+	Enviornment is for enviornmental objects, such as logs, trees, ect.
+Prefabs Workflow:
+	This folder is for storing all prefabs
+	This folder should be seperated like so:
+		Common: Prefabs that are common between multiple scenes
+		LevelOne: Prefabs that are only found in level one. ONLY found in level one. ONLY.
+Sounds Workflow:
+	This folder is for storing all sounds
+	This folder should be seperated like so:
+	Music: This is for background music, ect.
+		Common: Sounds that are common between multiple scenes
+		LevelOne: Sounds that are only found in level one. ONLY found in level one. ONLY.
+	SFX: This is for special effects, one shots, ect.
+		Common: Sounds that are common between multiple scenes
+		LevelOne: Sounds that are only found in level one. ONLY found in level one. ONLY.
+Texture Workflow:
+	This folder is for storing all textures
+	This folder should be seperated like so:
+		Common: Textures that are common between multiple scenes
+		LevelOne: Textures that are only found in level one. ONLY found in level one. ONLY.

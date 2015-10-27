@@ -1,0 +1,3 @@
+This folder is for the automatic import of plugins.
+Place plugin folders and scripts in this folder
+Do not place the standard assets in this folder!

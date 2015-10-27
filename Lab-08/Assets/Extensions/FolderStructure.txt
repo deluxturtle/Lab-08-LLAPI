@@ -1,0 +1,3 @@
+This folder is for the automatic import of asset packages.
+Place asset package folders in this folder
+Do not place the standard assets in this folder!

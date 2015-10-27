@@ -1,0 +1,4 @@
+This folder is for everything testing...
+Any unfinished asset/script/object ect. should be placed in here.
+Once the asset is completed, it should immediately be relocated, renamed, ect. to the appropriate folder.
+Before the final build of the project, this folder should be deleted.

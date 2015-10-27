@@ -1,0 +1,76 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M     (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\SirSeebs\Documents\GitHub\Lab-08-LLAPI\Lab-08\Builds\Lab_08_Data\Managed\System.dll (this message is harmless)
+Client socket creation success.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 176b0 -> priority: 1 
+  Thread -> id: 18c7c -> priority: 1 
+Connected To: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Client: Received Data from 1! Message : goto_Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Client: Received Data from 1! Message : goto_Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.242380 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 154.
+Total: 0.174087 ms (FindLiveObjects: 0.010658 ms CreateObjectMapping: 0.009079 ms MarkObjects: 0.147638 ms  DeleteObjects: 0.006316 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.237248 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 154.
+Total: 0.105794 ms (FindLiveObjects: 0.011842 ms CreateObjectMapping: 0.008684 ms MarkObjects: 0.078556 ms  DeleteObjects: 0.005921 ms)
+
+Client: Received Data from 1! Message : goto_Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.261723 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 156.
+Total: 0.089214 ms (FindLiveObjects: 0.009868 ms CreateObjectMapping: 0.007105 ms MarkObjects: 0.065924 ms  DeleteObjects: 0.005921 ms)
+
+Client: Received Data from 1! Message : goto_Scene2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.269618 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 156.
+Total: 0.113689 ms (FindLiveObjects: 0.012632 ms CreateObjectMapping: 0.009474 ms MarkObjects: 0.083293 ms  DeleteObjects: 0.007500 ms)
+
